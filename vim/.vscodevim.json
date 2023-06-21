@@ -1,0 +1,19 @@
+{
+    // norecmap
+    "vim.commandLineModeKeyBindingsNonRecursive": [],
+    // inremap
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    // noremap
+    "vim.normalModeKeyBindingsNonRecursive": [],
+    // 取消vim快捷键
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+    },
+    "editor.lineNumbers": "relative"
+}
