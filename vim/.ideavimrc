@@ -1,0 +1,8 @@
+"" Source your .vimrc
+" source ~/.vimrc
+
+
+scrolloff=5
+
+inoremap jj <Esc>
+inoremap oo <Esc>o
