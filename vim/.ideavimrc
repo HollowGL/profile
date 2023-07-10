@@ -2,7 +2,8 @@
 " source ~/.vimrc
 
 
-scrolloff=5
+set scrolloff=5
+set relativenumber
 
 inoremap jj <Esc>
 inoremap oo <Esc>o
