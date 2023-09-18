@@ -5,6 +5,7 @@
 set encoding=utf-8
 set number          " 显示行号
 set cursorline      " 当前行高亮
+set scrolloff=5
 set showmode        " 显示当前模式
 set mouse=a         " 支持使用鼠标
 set ruler           " 显示光标位置
@@ -32,5 +33,3 @@ set visualbell      " 发生错误时视觉提示
 " ------------------------------------
 
 inoremap jj <Esc>   " 修改键盘映射
-
-
