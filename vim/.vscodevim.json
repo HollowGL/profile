@@ -1,4 +1,8 @@
 {
+    // 在setting.json中编辑
+    // 需设置 "vim.vimrc.enable": false
+    // 其语法与vimrc有很大区别，但是可以在json页面的vim命令模式下直接输入vimrc语句，可自动设置
+    
     // norecmap
     "vim.commandLineModeKeyBindingsNonRecursive": [],
     // inremap
@@ -15,5 +19,6 @@
         "<C-a>": false,
         "<C-f>": false,
     },
-    "editor.lineNumbers": "relative"
+    "editor.lineNumbers": "relative",
+    "editor.cursorSurroundingLines": 5
 }
