@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "ccomplex": "cpp"
+    },
+    "C_Cpp.default.compilerArgs": [
+        "-g",
+		"${file}",
+        "-std=c++11",
+		"-o",
+		"${fileDirname}/${fileBasenameNoExtension}"
+    ]
+}
