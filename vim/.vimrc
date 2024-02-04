@@ -24,7 +24,7 @@ set hlsearch        " 高亮显示匹配结果
 set incsearch       " 自动跳转到第一个匹配结果
 set ignorecase      " 搜索忽略大小写
 
-set visualbell      " 发生错误时视觉提示
+" set visualbell      " 发生错误时视觉提示
 
 
 
